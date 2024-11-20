@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfumería Emperatriz</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8ff; /* Frescura */
+        }
+        header {
+            background-color: #DAA520; /* Dorado */
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header img {
+            width: 100px;
+            margin-bottom: 10px;
+        }
+        nav {
+            background-color: #FFD700; /* Dorado claro */
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+        }
+        nav a {
+            text-decoration: none;
+            color: white;
+            padding: 10px 20px;
+            margin: 0 10px;
+            border-radius: 5px;
+            background-color: #DAA520;
+        }
+        nav a:hover {
+            background-color: #B8860B; /* Dorado oscuro */
+        }
+        main {
+            padding: 20px;
+            text-align: center;
+            color: #333;
+        }
+        .section {
+            margin: 20px auto;
+            max-width: 800px;
+            padding: 20px;
+            background-color: #fdf5e6; /* Beige suave */
+            border: 1px solid #e0e0e0;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #DAA520;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="https://i.pinimg.com/550x/8a/eb/a3/8aeba318de1c8b60c3f9641a4be46321.jpg" alt="Logo de Perfumería Emperatriz">
+        <h1>Perfumería Emperatriz</h1>
+        <p><em>Experiencias inolvidables</em></p>
+    </header>
+
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#quienes-somos">Quiénes Somos</a>
+        <a href="#productos">Productos</a>
+        <a href="#contacto">Contáctenos</a>
+        <a href="#formulario">Formulario</a>
+    </nav>
+
+    <main>
+        <section id="inicio" class="section">
+            <h2>Bienvenidos</h2>
+            <p>Descubre fragancias exclusivas que inspiran momentos únicos. Perfumería Emperatriz se dedica a ofrecerte experiencias inolvidables.</p>
+        </section>
+
+        <section id="quienes-somos" class="section">
+            <h2>Misión</h2>
+            <p>Brindar fragancias únicas y de alta calidad, destacando la autenticidad y la excelencia en cada aroma.</p>
+
+            <h2>Visión</h2>
+            <p>Convertirnos en la perfumería líder reconocida por transmitir elegancia, frescura y exclusividad en cada uno de nuestros productos.</p>
+        </section>
+
+        <section id="productos" class="section">
+            <h2>Productos</h2>
+            <p>Explora nuestra línea de fragancias diseñadas para cada ocasión. Desde perfumes clásicos hasta ediciones limitadas.</p>
+        </section>
+
+        <section id="contacto" class="section">
+            <h2>Contáctenos</h2>
+            <p>Email: info@perfumeriaemperatriz.com</p>
+            <p>Teléfono: +57 324 345 85 50</p>
+        </section>
+
+        <section id="formulario" class="section">
+            <h2>Formulario de Contacto</h2>
+            <form>
+                <label for="nombre">Nombre:</label><br>
+                <input type="text" id="nombre" name="nombre" required><br><br>
+                
+                <label for="email">Correo Electrónico:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+                
+                <label for="mensaje">Mensaje:</label><br>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br><br>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Perfumería Emperatriz. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
